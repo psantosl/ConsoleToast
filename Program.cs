@@ -15,15 +15,19 @@ namespace ConsoleToast
         {
             ShortCutCreator.TryCreateShortcut("ConsoleToast.App", "ConsoleToast");
 
-            Console.WriteLine("Type 'exit' to quit");
+            Console.WriteLine("Type 'exit' to quit. ENTER to show a notification");
 
             while (Console.ReadLine() != "exit")
             {
                 ShowImageToast(
                     "ConsoleToast.App",
-                    "title with image", "this is a message",
-                    @"C:\Users\pablo\Pictures\logos\icon-logo-plastic-for-flickr.png");
-                // ShowTextToast("ConsoleToast.App", "title", "this is a message");
+                    DateTime.Now.ToLongTimeString() + " title with image",
+                    "this is a message",
+                    Path.GetFullPath("plasticlogo.png"));
+                /*ShowTextToast(
+                    "ConsoleToast.App",
+                    DateTime.Now.ToLongTimeString() + "title",
+                    "this is a message");*/
             }
         }
 
