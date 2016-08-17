@@ -1,5 +1,7 @@
 # ConsoleToast
-Display Windows Toast messages from a Console app
+Display Windows Toast messages from a Console app.
+
+![alt tag](https://raw.githubusercontent.com/psantosl/ConsoleToast/master/img/consoletoast-animation.gif)
 
 ## What are Toasts
 They are the pop up messages that show up on Windows since version 8. Apps can create their own. Normally they are a pain, and a great source of distraction, but sometimes it is good to show some info to the user.
