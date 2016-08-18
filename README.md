@@ -1,6 +1,8 @@
 # ConsoleToast
 Display Windows Toast messages from a Console app.
 
+Read this blogpost for more info: http://blog.plasticscm.com/2016/08/how-to-send-windows-toast-notifications.html
+
 ![alt tag](https://raw.githubusercontent.com/psantosl/ConsoleToast/master/img/consoletoast-animation.gif)
 
 ## What are Toasts
